@@ -29,6 +29,8 @@ v
 ## How to use
 
 Clone this repository and rename it as you want. Then, edit the following files:
+* `settings.gradle.kts`
+  * Change the project name in `rootProject.name`
 * `kmp/build.gradle.kts`
   * Change the namespace in the `androidLibrary` block
   * Change the package of the generated resources in the `compose.resources` block
