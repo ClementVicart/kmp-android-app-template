@@ -1,4 +1,4 @@
-# Compose Multiplatform with Android project template
+# Compose Multiplatform with separate Android project template
 
 This repository aims to serve as a template for Kotlin Multiplatform projects with Compose and Android application Support.
 
