@@ -1,17 +1,16 @@
 [versions]
 # Kotlin
-kotlin = "2.3.0"
+kotlin = "2.3.10"
 
 # Android
 agp = "9.0.0"
 compileSdk = "36"
 minSdk = "30"
-activity = "1.12.2"
+activity = "1.12.3"
 material = "1.13.0"
 
 # Compose
-compose = "1.10.0"
-material-icons = "1.7.3"
+compose = "1.10.1"
 material3 = "1.10.0-alpha05"
 navigation3 = "1.0.0-alpha06"
 
@@ -21,8 +20,6 @@ compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", v
 compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "compose" }
 compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "compose" }
 compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "material3" }
-compose-material-icons-core = { module = "org.jetbrains.compose.material:material-icons-core", version.ref = "material-icons" }
-compose-material-icons-extended = { module = "org.jetbrains.compose.material:material-icons-extended", version.ref = "material-icons" }
 compose-navigation3-ui = { module = "org.jetbrains.androidx.navigation3:navigation3-ui", version.ref = "navigation3" }
 compose-components-resources = { module = "org.jetbrains.compose.components:components-resources", version.ref = "compose" }
 
