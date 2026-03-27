@@ -10,7 +10,7 @@ activity = "1.12.4"
 material = "1.13.0"
 
 # Compose
-compose = "1.10.1"
+compose = "1.10.3"
 material3 = "1.10.0-alpha05"
 navigation3 = "1.0.0-alpha06"
 
