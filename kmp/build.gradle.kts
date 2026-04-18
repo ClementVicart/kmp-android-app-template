@@ -6,11 +6,12 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.android.multiplatform.library)
+    alias(libs.plugins.koin.compiler)
 }
 
 kotlin {
 
-    androidLibrary {
+    android {
         compileSdk = libs.versions.compileSdk.get().toInt()
         namespace = "com.example.kmp"
         compilerOptions {
@@ -32,6 +33,11 @@ kotlin {
             implementation(libs.compose.material3)
             implementation(libs.compose.navigation3.ui)
             implementation(libs.compose.components.resources)
+
+            implementation(project.dependencies.platform(libs.koin.bom))
+            implementation(libs.koin.core)
+            implementation(libs.koin.compose)
+            implementation(libs.koin.viewmodel)
         }
 
         jvmMain.dependencies {

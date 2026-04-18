@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.android.application)
+    alias(libs.plugins.koin.compiler)
 }
 
 kotlin {
@@ -39,4 +40,7 @@ dependencies {
     implementation(project(":kmp"))
     implementation(libs.androidx.activity.compose)
     implementation(libs.material)
+
+    implementation(platform(libs.koin.bom))
+    implementation(libs.koin.android)
 }

@@ -1,6 +1,6 @@
 # Compose Multiplatform with separate Android project template
 
-This repository aims to serve as a template for Kotlin Multiplatform projects with Compose and Android application Support.
+This repository aims to serve as a template for Kotlin Multiplatform projects with Compose and Android application support.
 
 It uses latest versions of Compose Multiplatform and Android libraries, as well as **recommended project architecture**.
 
@@ -25,6 +25,19 @@ and Jetbrains for new Kotlin Multiplatform projects
 v
 :kmp -> Common shared configurations and source sets
 ```
+
+## Included libraries & plugins
+
+This template contains several libraries and plugins to get started quickly:
+* Compose Multiplatform
+  * runtime
+  * foundation
+  * ui
+  * material3
+  * navigation3
+  * resources
+* Kotlin serialization
+* **New**: Koin (dependency injection)
 
 ## How to use
 
