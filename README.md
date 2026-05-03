@@ -1,4 +1,4 @@
-# Compose Multiplatform with separate Android project template
+# Compose Multiplatform + Android + Dependency Injection template
 
 This repository aims to serve as a template for Kotlin Multiplatform projects with Compose and Android application support.
 
@@ -35,9 +35,14 @@ This template contains several libraries and plugins to get started quickly:
   * ui
   * material3
   * navigation3
+    * ViewModel integration
   * resources
+  * Material Symbols (non-official, custom library)
 * Kotlin serialization
-* **New**: Koin (dependency injection)
+* Koin (dependency injection)
+  * Compose integration
+  * ViewModel integration
+  * Navigation3 integration
 
 ## How to use
 
@@ -45,7 +50,7 @@ Clone this repository and rename it as you want. Then, edit the following files:
 * `settings.gradle.kts`
   * Change the project name in `rootProject.name`
 * `kmp/build.gradle.kts`
-  * Change the namespace in the `androidLibrary` block
+  * Change the namespace in the `android` block
   * Change the package of the generated resources in the `compose.resources` block
   * Change the main class of the JVM platform in the `compose.desktop` block
 * `androidApp/build.gradle.kts`
@@ -53,3 +58,5 @@ Clone this repository and rename it as you want. Then, edit the following files:
   * Change the applicationId
 * `gradle/libs.versions.toml`
   * Edit the android SDK min/compile versions following your needs
+* `kmp/` and `androidApp/`
+  * Rename the package following your needs
