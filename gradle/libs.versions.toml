@@ -14,7 +14,7 @@ compose = "1.11.0"
 material3 = "1.11.0-alpha07"
 navigation3 = "1.1.1"
 lifecycle = "2.11.0-beta01"
-adaptive = "1.3.0-alpha07"
+adaptive = "1.3.0-beta01"
 material-symbols = "1.1.0"
 
 # Other
