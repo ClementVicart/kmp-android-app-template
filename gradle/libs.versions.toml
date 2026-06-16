@@ -19,7 +19,7 @@ material-symbols = "1.1.0"
 
 # Other
 koin = "4.2.1"
-koin-plugin = "0.6.2"
+koin-plugin = "1.0.0"
 
 [libraries]
 # Compose
