@@ -7,7 +7,7 @@ agp = "9.2.1"
 compileSdk = "37"
 minSdk = "30"
 activity = "1.13.0"
-material = "1.13.0"
+material = "1.14.0"
 
 # Compose
 compose = "1.11.1"
